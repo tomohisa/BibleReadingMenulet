@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1080</int>
-		<string key="IBDocument.SystemVersion">12B19</string>
+		<int key="IBDocument.SystemTarget">1070</int>
+		<string key="IBDocument.SystemVersion">11E53</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2549</string>
-		<string key="IBDocument.AppKitVersion">1187</string>
-		<string key="IBDocument.HIToolboxVersion">624.00</string>
+		<string key="IBDocument.AppKitVersion">1138.47</string>
+		<string key="IBDocument.HIToolboxVersion">569.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string key="NS.object.0">2549</string>
@@ -73,8 +73,6 @@
 											<reference key="NSNextKeyView" ref="574066274"/>
 											<string key="NSReuseIdentifierKey">_NS:1828</string>
 											<bool key="NSEnabled">YES</bool>
-											<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
-											<bool key="NSControlAllowsExpansionToolTips">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="39145093">
 												<reference key="NSNextResponder" ref="1010790918"/>
 												<int key="NSvFlags">256</int>
@@ -221,7 +219,6 @@
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="759553067"/>
 									<string key="NSReuseIdentifierKey">_NS:1845</string>
-									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 									<reference key="NSTarget" ref="319986716"/>
 									<string key="NSAction">_doScroller:</string>
 									<double key="NSPercent">0.99708454810495628</double>
@@ -235,7 +232,6 @@
 									<reference key="NSNextKeyView" ref="1010790918"/>
 									<string key="NSReuseIdentifierKey">_NS:1847</string>
 									<bool key="NSEnabled">YES</bool>
-									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="319986716"/>
 									<string key="NSAction">_doScroller:</string>
@@ -267,9 +263,6 @@
 							<reference key="NSContentView" ref="52501954"/>
 							<reference key="NSHeaderClipView" ref="1010790918"/>
 							<bytes key="NSScrollAmts">QSAAAEEgAABBmAAAQZgAAA</bytes>
-							<double key="NSMinMagnification">0.25</double>
-							<double key="NSMaxMagnification">4</double>
-							<double key="NSMagnification">1</double>
 						</object>
 						<object class="NSButton" id="728275744">
 							<reference key="NSNextResponder" ref="130556081"/>
@@ -294,7 +287,6 @@
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
 							</object>
-							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
 						<object class="NSButton" id="759553067">
 							<reference key="NSNextResponder" ref="130556081"/>
@@ -319,7 +311,6 @@
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
 							</object>
-							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
 						<object class="NSButton" id="292896173">
 							<reference key="NSNextResponder" ref="130556081"/>
@@ -327,6 +318,7 @@
 							<string key="NSFrame">{{387, 288}, {139, 32}}</string>
 							<reference key="NSSuperview" ref="130556081"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:687</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="41371778">
@@ -343,7 +335,6 @@
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
 							</object>
-							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
 						<object class="NSComboBox" id="965712997">
 							<reference key="NSNextResponder" ref="130556081"/>
@@ -373,8 +364,8 @@
 								<bool key="NSHasVerticalScroller">YES</bool>
 								<array class="NSMutableArray" key="NSPopUpListData">
 									<string>Regular</string>
-									<string>Chronologically</string>
-									<string>Thematically</string>
+									<string>Chronological</string>
+									<string>Theme</string>
 								</array>
 								<reference key="NSDelegate" ref="965712997"/>
 								<object class="NSComboTableView" key="NSTableView" id="602175835">
@@ -385,8 +376,6 @@
 									<reference key="NSWindow"/>
 									<string key="NSReuseIdentifierKey">_NS:24</string>
 									<bool key="NSEnabled">YES</bool>
-									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
-									<bool key="NSControlAllowsExpansionToolTips">YES</bool>
 									<array class="NSMutableArray" key="NSTableColumns">
 										<object class="NSTableColumn">
 											<double key="NSWidth">10</double>
@@ -439,7 +428,6 @@
 									<int key="NSTableViewGroupRowStyle">1</int>
 								</object>
 							</object>
-							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
 					</array>
 					<string key="NSFrameSize">{540, 400}</string>
@@ -448,7 +436,7 @@
 					<reference key="NSNextKeyView" ref="965712997"/>
 					<string key="NSReuseIdentifierKey">_NS:207</string>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1680, 1028}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1366, 746}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -730,8 +718,8 @@
 				<string key="116.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<array key="117.IBComboBoxObjectValuesKey.objectValues">
 					<string>Regular</string>
-					<string>Chronologically</string>
-					<string>Thematically</string>
+					<string>Chronological</string>
+					<string>Theme</string>
 				</array>
 				<string key="117.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="12.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>

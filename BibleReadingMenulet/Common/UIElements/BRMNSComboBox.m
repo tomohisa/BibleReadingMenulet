@@ -25,8 +25,11 @@
     
     for (int i=0; i<self.numberOfItems; i++) {
         id obj = [self itemObjectValueAtIndex:i];
-        [self insertItemWithObjectValue:NSLocalizedString(obj, nil) atIndex:i];
-        [self removeItemWithObjectValue:obj];
+        NSString *str = NSLocalizedString(obj, nil);
+        if ([str compare:obj]) {
+            [self insertItemWithObjectValue:str atIndex:i];
+            [self removeItemWithObjectValue:obj];
+        }
     }
 }
 

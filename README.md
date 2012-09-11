@@ -16,4 +16,4 @@ Features
 Download
 --------
 
-[BibleReadingMenulet_0.14.zip](http://yhirose.github.com/BibleReadingMenulet/apps/BibleReadingMenulet_0.14.zip)
+[BibleReadingMenulet_1.0.zip](http://yhirose.github.com/BibleReadingMenulet/apps/BibleReadingMenulet_1.0.zip)
